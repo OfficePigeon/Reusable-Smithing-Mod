@@ -3,7 +3,7 @@
 	"id": "wich_reusable-smithing",
 	"version": "${version}",
 	"name": "Reusable Smithing",
-	"description": "Smithing recipes no longer destroy templates after use",
+	"description": "Smithing recipes no longer consume templates on use",
 	"authors": [ "dovewich" ],
 	"contact": {
 		"homepage": "https://www.wich.fun/",
