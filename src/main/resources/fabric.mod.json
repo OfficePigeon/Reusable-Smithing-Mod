@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "wich_reusable-smithing",
+	"version": "${version}",
+	"name": "Reusable Smithing",
+	"description": "Smithing recipes no longer destroy templates after use",
+	"authors": [ "dovewich" ],
+	"contact": {
+		"homepage": "https://www.wich.fun/",
+		"sources": "https://github.com/OfficePigeon/Reusable-Smithing-Mod",
+		"issues": "https://github.com/OfficePigeon/Reusable-Smithing-Mod/issues"
+	},
+	"license": "",
+	"icon": "assets/wich/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "fun.wich.ReusableSmithingMod" ]
+	},
+	"mixins": [
+		"wich.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": ">=1.21.9",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
